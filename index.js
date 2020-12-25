@@ -9,7 +9,8 @@
 
 */
 var readLineSync= require('readline-sync')
-n=readLineSync.question('Enter a number')
+console.log('Enter a number')
+n=readLineSync.question()
 for(var i=0;i<n;i++)
 {
   var str=""
